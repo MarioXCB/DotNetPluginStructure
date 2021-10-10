@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Project1\Core.csproj", "{5D0F9370-8C5A-49B0-BCBA-35966C3327D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasePlugin", "BasePlugin\BasePlugin.csproj", "{2F14EEED-6F79-48EA-B2D5-C406887476FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasePlugin", "BasePlugin\BasePlugin.csproj", "{2F14EEED-6F79-48EA-B2D5-C406887476FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{18D8CE2A-84C4-41FD-A742-9932560341D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{18D8CE2A-84C4-41FD-A742-9932560341D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbrechnungPlugin", "AbrechnungPlugin\AbrechnungPlugin.csproj", "{B4AE5F8A-6B69-4CB6-9DBD-827E6B8A6F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{18D8CE2A-84C4-41FD-A742-9932560341D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D8CE2A-84C4-41FD-A742-9932560341D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D8CE2A-84C4-41FD-A742-9932560341D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AE5F8A-6B69-4CB6-9DBD-827E6B8A6F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AE5F8A-6B69-4CB6-9DBD-827E6B8A6F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AE5F8A-6B69-4CB6-9DBD-827E6B8A6F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AE5F8A-6B69-4CB6-9DBD-827E6B8A6F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

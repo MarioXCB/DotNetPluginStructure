@@ -46,7 +46,7 @@ namespace Project1.Controllers
                     MyActionDescriptorChangeProvider.Instance.HasChanged = true;
                     MyActionDescriptorChangeProvider.Instance.TokenSource.Cancel();
 
-                    ControllerRegistrator.registerNewController(PluginManager.ControllerPluginsCommands.Where(x => x.PluginContract.pluginId == "TestPlugin").FirstOrDefault().getController());
+                    //ControllerRegistrator.registerNewController(PluginManager.ControllerPluginsCommands.Where(x => x.PluginContract.pluginId == "TestPlugin").FirstOrDefault().getController());
                     
 
 

@@ -3,20 +3,20 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TestPlugin
+namespace AbrechnungsPlugin
 {
     [ApiController]
     [Route("[controller]")]
-    public class PersonController : ControllerBase
+    public class AbrechnungsController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<PersonController> _logger;
+        private readonly ILogger<AbrechnungsController> _logger;
 
-        public PersonController(ILogger<PersonController> logger)
+        public AbrechnungsController(ILogger<AbrechnungsController> logger)
         {
             _logger = logger;
         }
